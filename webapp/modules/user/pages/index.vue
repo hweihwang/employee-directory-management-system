@@ -6,11 +6,11 @@ const { totalUsers, users, search, pending, error } = await useUserHomePage()
 
 <template>
   <div class="p-4 xl:p-0">
-    <div class="text-center py-10 md:max-w-5xl md:mx-auto flex justify-between">
+    <div class="text-center py-5 md:max-w-5xl md:mx-auto flex justify-between">
       <h1 class="text-xl mb-3 mt-2 font-semibold tracking-normal text-gray-800">
         Total users: {{ totalUsers }}
       </h1>
-      <div class="relative sm:w-3/12">
+      <div class="relative md:w-3/12">
         <Icon
           name="ri-search-line"
           class="text-gray-400 absolute left-3 w-5 h-5 top-2.5"
