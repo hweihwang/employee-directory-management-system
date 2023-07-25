@@ -10,39 +10,30 @@ To run this repo, follow these steps:
 
 1. Clone the repository:
 
-`git clone https://github.com/hweihwang/laravel-service-base.git`
+`git clone https://github.com/hweihwang/employee-directory-management-system.git`
 
 2. Navigate to the project directory:
 
-`cd laravel-service-base`
+`cd webapp`
 
-3. Make the `make.sh` script executable:
+3. Install dependencies:
 
-`chmod +x ./make.sh`
+`pnpm i`
 
-4. Run the script:
+4. Start the application:
 
-`./make.sh`
+`pnpm dev`
 
-5. Your application should now be running at `http://localhost:19000`
-
-
-Running Tests
--------------
-To run the tests, run the following command:
-
-`docker-compose run test-runner php artisan test`
+5. Your application should now be running at `http://localhost:3001`
 
 Prerequisites
 -------------
 
-Before running this repo, ensure that you have Docker installed on your system.
+Before running this repo, ensure that you have node and pnpm installed on your machine.
 
 Technologies Used
 -----------------
 
-- Docker
-- Laravel
-- Laravel Octane
-- Elasticsearch
-- MariaDB
+- Vue.js (Nuxt.js)
+- Tailwind CSS
+- TypeScript
